@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap');
+
+/* font-family: 'Nunito', sans-serif; */
+
+
+* {
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 32rem;
+    height: 20rem;
+    background: linear-gradient(rgb(81, 81, 220),rgb(69, 245, 245));
+    border-radius: 0.6rem;
+    padding: 1rem;
+    color: white;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0 0.1rem #222;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0.3rem 0.3rem 0.3rem #222, -0.3rem 0 0.3rem #222;
+}
+
+
+.card-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.form-field {
+    margin-bottom: 1rem;
+}
+
+input {
+    border: none;
+    border: 0.1rem solid;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    /* background: linear-gradient(rgb(218, 115, 158),rgb(151, 179, 107)); */
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 43%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0.5rem 1rem 0;
+}
+
+.btn {
+    border: none;
+    border: 0.1rem solid;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1.2rem;
+}
+
+
+/* btn CSS */
+.btn29 {
+  align-items: center;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.btn29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.btn29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.large-text {
+    font-size: 1.5rem;
+    color: rgb(113, 110, 106);
+}
+
+input {
+    text-align: center;
+}
