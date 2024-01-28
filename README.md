@@ -1,40 +1,25 @@
 # Number-guess-game-mini-project
-Number guessing game simple Ui . Tech stack: html,css,js
+Number guessing game simple UI . Tech stack: html,css,js
 
+# Javascript mini project
 
-```javascript
-
-console.log("This is Dipsundar majhi");
-
-```
-
-
-
-# Hey this is dipsundar majhi.........
----
----
----
-## New feature initiliziation starting.......
-
-
+## By Dipsundar Majhi 
 
 ---
 
-1. index.html
-2. style.css
-3. index.js
+### Purpose of this Project : Testing Javascript skills
 
----
+- Html
+- Css
+- Javascript
 
-## This is testing some new fixing.....
+### [Click here to see the project demo](https://dipsundar.github.io/Number-guess-game-mini-project/)
 
----
 
-__Hey this is a number guessing game between 1 to 10__  
-_You Have to guess correct one & you have total 10 chances_  
--So, don't late try now_  
- ---
+
+
+
+
+
  
- ##### Hey its a new approach so don't be angry with me for bad ui & for not responsive..
- 
- ----
+
